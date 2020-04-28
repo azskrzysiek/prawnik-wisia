@@ -1,0 +1,19 @@
+.about-us__header {
+    text-align: center;
+}
+
+.about-us__content {
+    display: flex;
+    align-items: center;
+}
+
+.about-us__description {
+    font-size: 20px;
+    line-height: 1.9;
+    color: #777;
+}
+
+.about-us__image {
+    min-width: 50%;
+    margin-left: 30px;
+}
