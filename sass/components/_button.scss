@@ -1,0 +1,25 @@
+.btn {
+    border: 2px solid rgba(214, 209, 209, 0.849);
+    text-decoration: none;
+    padding: 2rem 3rem;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: bold;
+    transition: .3s;
+    z-index: 3;
+    transform: translateY(-10vh);
+    border-radius: 10rem;
+
+    &:hover {
+        background: black;
+    }
+
+    &--black {
+        background: rgba($color-black, 0.5);
+    }
+
+    &--animated {
+        animation: moveTop 2s ease-out;
+    }
+}
