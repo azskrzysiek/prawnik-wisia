@@ -9,6 +9,7 @@
     position: relative;
     z-index: 1;
 
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 100%);
 
     &::after {
@@ -20,5 +21,9 @@
         bottom: 0;
         background-color: rgba($color-primary, .6);
     }
+}
+
+.about-us {
+    width: 100%;
 }
 
